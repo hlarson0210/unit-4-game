@@ -1,3 +1,7 @@
+body {
+    /*background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-dream-starry-sky-beautiful-pink-image_20206.jpg")*/
+}
+
 h1 {
     background-color: greenyellow;
     color: white;
@@ -17,6 +21,7 @@ h1 {
     background-color: aliceblue;
     height: 100px;
     font-size: 24px;
+    margin-right: 20px;
     float: left;
 }
 
@@ -24,6 +29,11 @@ h1 {
     content: "";
     clear: both;
     display: block;
+}
 
+img {
+    height: 60px;
+    width: 60px;
+    float: left;
 }
 
