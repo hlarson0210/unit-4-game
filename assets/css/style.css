@@ -1,0 +1,29 @@
+h1 {
+    background-color: greenyellow;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    margin:  0 0 1% 0;
+    width: 30%;
+}
+
+.instructions {
+    background-color: ffffff;
+    width: 30%;
+    color: #4aaaa5;
+}
+
+.game-score {
+    width: 20%;
+    background-color: aliceblue;
+    height: 100px;
+    font-size: 24px;
+    float: left;
+}
+
+.game-score::after {
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
