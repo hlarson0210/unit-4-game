@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-    background-color: greenyellow;
+    background-color: blueviolet;
     color: white;
     padding: 10px 0px 10px 0px;
     margin:  0 0 1% 0;
     width: 30%;
+    text-align: center;
 }
 
 .instructions {
@@ -18,22 +19,58 @@ h1 {
 
 .game-score {
     width: 20%;
-    background-color: aliceblue;
+    background-color: lightgreen;
     height: 100px;
     font-size: 24px;
-    margin-right: 20px;
-    float: left;
-}
-
-.game-score::after {
-    content: "";
-    clear: both;
-    display: block;
+    margin: 0px 20px 0px 1px;
 }
 
 img {
     height: 60px;
     width: 60px;
-    float: left;
+
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    border: 0;
+    background-color: white;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    height: 65px;
+    width: 65px;  
+}
+
+
+.buttons {
+    border: 1px solid black;
+    margin: 2px;
+    height: 60px;
+    width: 60px;
+}
+
+.total {
+    background-color: #4aaaa5;
+    width: 20%;
+    padding: 2px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#user-score {
+    background-color: #4aaaa5;
+    color: white;
+    height: 100px;
+    width: 20%;
+    font-size: 24pt;
+    padding-left: 4px;
+}
+
+.wrap {
+    width: 10%;
+    height: 50px;
+    background-color: aliceblue;
 }
 
