@@ -1,12 +1,13 @@
 var randomResult;
 var wins = 0;
 var losses = 0;
+var previous = 0;
 // var images = ["../images/477295.jpg", "../images/images-1.jpg", "../images/images.jpg", "../images/yellow_gem.jpg"];
 
 
 var resetAndStart = function () {
 
-    $(".crystals").empty();
+    $(".buttons").empty();
 
     randomResult = Math.floor(Math.random() * 101) + 19;
     console.log(randomResult);
@@ -35,18 +36,18 @@ var resetAndStart = function () {
 
 resetAndStart();
 
-$(document).on("click", '.crystal', function () {
+$(document).on("click", '.buttons', function () {
 
     var num = parseInt($(this).attr("data-random"));
 
     previous += num;
 
 
-    $("#previous").html("Total score: " + previous);
+    $("#total").html("Total score: " + previous);
 
     console.log(previous);
 
-    if (previous > random_result) {
+    if (previous > randomResult) {
 
         losses++;
 
@@ -57,7 +58,7 @@ $(document).on("click", '.crystal', function () {
         resetAndStart();
 
     }
-    else if (previous === random_result) {
+    else if (previous === randomResult) {
 
         wins++;
 
