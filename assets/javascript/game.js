@@ -19,7 +19,7 @@ var resetAndStart = function () {
         var random = Math.floor((Math.random() * 11) + 1);
         console.log(random);
 
-        var crystal = $("<div>");
+        var crystal = $("<button>");
         crystal.attr({
             "class": 'button',
             "data-random": random

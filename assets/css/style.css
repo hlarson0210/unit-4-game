@@ -46,7 +46,7 @@ img {
 
 .buttons {
     border: 1px solid black;
-    margin: 2px;
+    margin: 2px 5px 5px 5px;
     height: 60px;
     width: 60px;
 }
