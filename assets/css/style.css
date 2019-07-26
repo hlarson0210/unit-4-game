@@ -18,11 +18,11 @@ h1 {
 }
 
 .game-score {
-    width: 20%;
-    background-color: lightgreen;
+    width: 10%;
+    background-color: burlywood;
     height: 100px;
-    font-size: 24px;
-    margin: 0px 20px 0px 1px;
+    font-size: 32px;
+    margin: 0px 20px 20px 1px;
 }
 
 img {
@@ -48,13 +48,6 @@ img {
     clear: both;
     display: block;
     content: "";
-}
-
-.buttons {
-    border: 1px solid black;
-    margin: 2px 5px 5px 5px;
-    height: 60px;
-    width: 60px;
 }
 
 .total {
