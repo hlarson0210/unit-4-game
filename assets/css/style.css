@@ -41,8 +41,14 @@ img {
     background-color: white;
     height: 65px;
     width: 65px;  
+    float: left;
 }
 
+.button::after {
+    clear: both;
+    display: block;
+    content: "";
+}
 
 .buttons {
     border: 1px solid black;
