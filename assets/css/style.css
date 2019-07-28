@@ -1,75 +1,134 @@
 body {
-    /*background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-dream-starry-sky-beautiful-pink-image_20206.jpg")*/
+    margin: 0;
 }
 
 h1 {
-    background-color: blueviolet;
+    background-color: rgb(30, 195, 201);
     color: white;
     padding: 10px 0px 10px 0px;
-    margin:  0 0 1% 0;
-    width: 30%;
+    margin:  0;
+    width: 100%;
     text-align: center;
+    height: 40px;
+}
+
+.container {
+    margin-top: 0px;
+    width: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/401/907/non_2x/vector-background-wallpaper-with-polygons-in-gradient-colors.jpg");
+    padding: 15px;
 }
 
 .instructions {
-    background-color: ffffff;
-    width: 30%;
-    color: #4aaaa5;
+    width: 100%;
+    color: black;
+    text-align: center;
 }
 
-.game-score {
-    width: 10%;
-    background-color: burlywood;
-    height: 100px;
-    font-size: 32px;
-    margin: 0px 20px 20px 1px;
+.line {
+    background-color: rgb(30, 195, 201);
+    height: 5px;
+    width: 1005;
+    margin-bottom: 10px;
 }
 
 img {
-    height: 60px;
-    width: 60px;
-
+    height: 50px;
+    width: 50px;
+    margin: 10px 25px 10px 25px;
+    padding: 20px;
+    border: 1px solid rgb(30, 195, 201);
 }
 
 #btn1, #btn2, #btn3, #btn4 {
     border: 0;
     background-color: white;
+    margin-top: 2%;
+}
+
+button:focus{
+    outline: none;
 }
 
 .button {
-    border: none;
-    background-color: white;
     height: 65px;
-    width: 65px;  
+    width: 100%; 
+    margin: 1% 30% 5% 30%;
+}
+
+.grass {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/EQMOWcXPx/abstract-yellow-background-made-of-small-circles-perspective_sgh3jlqf_thumbnail-full01.png");
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.tracker{
+    margin-top: 5%;
+    margin-left: 20%;
+    align-content: center;
+    padding-top: 35px;
+}
+
+.game-score {
+    width: 10%;
+    background-color: burlywood;
+    height: 50px;
+    font-size: 24px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    vertical-align: baseline;
+    padding: 20px 0px 0px 0px;
     float: left;
 }
 
-.button::after {
+.game-score::after{
     clear: both;
-    display: block;
     content: "";
+    display: block;
 }
 
 .total {
     background-color: #4aaaa5;
+    height: 60px;
     width: 20%;
-    padding: 2px;
+    padding: 10px 0px 0px 0px;
     color: white;
-    margin-bottom: 5px;
+    margin: 10px 20px 10px 20px;  
+    float: left;
+}
+
+.total::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#score{
+    text-align: center;
+    font-size: 18px;
 }
 
 #user-score {
-    background-color: #4aaaa5;
     color: white;
-    height: 100px;
-    width: 20%;
     font-size: 24pt;
-    padding-left: 4px;
+    text-align: center;
 }
 
 .wrap {
-    width: 10%;
-    height: 50px;
+    width: 15%;
+    height: 60px;
+    font-size: 18px;
     background-color: aliceblue;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 20px 10px 20px;
+    float: left;
+}
+
+.wrap::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 

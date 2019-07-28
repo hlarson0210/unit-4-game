@@ -10,40 +10,49 @@
 
 <body>
     <h1>Crystals Collector!</h1>
-    <div class="instructions">
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of point to your
-            total score.</p>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
-            above the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of the crystals</p>
+    <div class="container">
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of point to your
+                total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes
+                above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of the crystals</p>
+        </div>
     </div>
+    <div class="line"></div>
 
+    <div class="grass">
+        <div class="button">
+            <button id="btn1">
+                <img src="assets/images/477295.jpg">
+            </button>
+            <button id="btn2">
+                <img src="assets/images/images-1.jpg">
+            </button>
+            <button id="btn3">
+                <img src="assets/images/images.jpg">
+            </button>
+            <button id="btn4">
+                <img src="assets/images/yellow_gem.jpg">
+            </button>
+        </div>
 
-    <div class="game-score"></div>
-    <div class="wrap" id="wins">Wins 0</div>
-    <div class="wrap" id="losses">Losses 0</div>
+        <div class="tracker">
+            <div class="wrap" id="wins">Wins: 0</div>
 
+            <div class="game-score"></div>
 
+            <div class="total">
+                <div id="score">Your total score is:</div>
+                <div id="user-score">0</div>
+            </div>
 
-    <button id="btn1">
-        <img src="assets/images/477295.jpg">
-    </button>
-    <button id="btn2">
-        <img src="assets/images/images-1.jpg">
-    </button>
-    <button id="btn3">
-        <img src="assets/images/images.jpg">
-    </button>
-    <button id="btn4">
-        <img src="assets/images/yellow_gem.jpg">
-    </button>
-
-
-    <div class="total">Your total score is: </div>
-    <div id="user-score">0</div>
-
+            <div class="wrap" id="losses">Losses: 0</div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
